@@ -1,10 +1,15 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
+
+    
 
 html body {
     height: 100%;
-    background-color: black;
+    background-color:black;
 }
 
 .hero-image {
@@ -33,18 +38,58 @@ p {
     font-size:30px;
 }
 
-
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.col {
-    color: white;
-    border: 1px solid yellowgreen;
+
+.card {
+    background-color: grey;
+    width: 270px;
     height: 300px;
+    margin: 10px;
+    border-radius: 15px;
 }
 
+.card-image {
+    background-color: darkolivegreen;
+    height: 170px;
+    margin-bottom: 15px ;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+    background-image: url("image/prisoncondition.jpeg");
+    
+}
+
+.car-2 {
+    background-image: url("image/Weed Resource Page.jpeg");
+}
+
+.car-3 {
+    background-image: url("image/privateownership.png");
+
+}
+
+.card a {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.card:hover {
+    background-color: darkolivegreen;
+    color: white;
+    cursor: pointer;
+}
 
 
 
