@@ -12,18 +12,25 @@
    font-family: 'Open Sans', sans-serif;
  }
 
- h2 {
-   text-align: center;
+ h3 {
+   text-align:center;
    background-color: black;
    color: white;
+   font-family: 'Open Sans', sans-serif;
  }
 
  h6 {
    text-align: center;
    background-color: black;
    color: white;
-   font-size: 50px
+   font-size: 20px;
+   font-family: 'Open Sans', sans-serif;
  }
+
+ p {color: goldenrod;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;}
 
  div {
    background-color: black;
@@ -32,7 +39,7 @@
 
 
 
- img {
+ .grid-container2 img {
    width: 220px;
    height: 200px;
    text-align: center;
@@ -56,7 +63,9 @@
 
 
 
- img:hover {
+
+
+ .grid-container2 img:hover {
    /* Start the shake animation and make the animation last for 0.5 seconds */
    animation: shake 0.5s;
 
@@ -109,3 +118,117 @@
      transform: translate(1px, -2px) rotate(-1deg);
    }
  }
+
+
+ a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 1em;
+  margin: 5px;
+}
+li {
+  /* display: inline; */
+  float: right;
+}
+.nav {
+  position: static;
+  display: inline-block;
+}
+.navtxt {
+  padding-top: 1em;
+  list-style: none;
+}
+.navtxt :hover {
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+}
+.logo {
+  float: left;
+  display: block;
+}
+
+
+.logo img {
+  width: 70pt;
+  height: 70pt;
+  border-radius: 15%;
+}
+
+
+
+
+footer {
+  display: flex;
+  position: sticky;
+  justify-content: center;
+  bottom:0px;
+  width: 100%;
+  right:0px;
+  background-color: white;
+  /* background-color: rgba(255, 255, 255, 0.586); */
+}
+.twitter-logo img{
+ padding-top: px;
+ height: 30px;
+ padding-top: 5.5px;
+}
+.fb-logo img{
+height: 34px;
+padding-top: 3px;
+}
+.insta-logo img{
+height: 30px;
+padding-top: 4.5px;
+}
+
+
+  
+  @media screen (min-width: 600px) {
+    .grid-container2 { grid-template-columns: auto auto auto; }
+
+
+}
+@media screen (min-width: 900px) {
+  .grid-container2 { grid-template-columns: auto auto auto; }
+}
+  
+  
+@media screen (min-width: 600px) {
+  .grid-container3 { grid-template-columns: auto auto auto; }
+
+
+}
+@media screen (min-width: 900px) {
+.grid-container3 { grid-template-columns: auto auto auto; }
+}
+
+@media screen (min-width: 600px) {
+  .grid-container { grid-template-columns: auto auto auto; }
+
+
+}
+@media screen (min-width: 900px) {
+.grid-container { grid-template-columns: auto auto auto; }
+}
+
+@media screen (min-width: 600px) {
+  .media { grid-template-columns: auto auto auto; }
+
+
+}
+@media screen (min-width: 900px) {
+.media { grid-template-columns: auto auto auto; }
+}
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
